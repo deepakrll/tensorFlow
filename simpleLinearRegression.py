@@ -17,4 +17,4 @@ model.compile(optimizer='sgd', loss='mean_squared_error')
 model.fit(X, Y, epochs=500)
 
 # Predict
-print(model.predict([6]))
+print(model.predict(np.array([6], dtype=np.float32)))
