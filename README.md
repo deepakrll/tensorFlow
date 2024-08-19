@@ -1,4 +1,4 @@
-For first program
+For both program
 pip install tensorflow
 
 Second Program
